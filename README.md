@@ -6,7 +6,7 @@
 <img src="https://github.com/DIABLOSER/AndroidWidget/blob/main/raw/raw.png" alt="截图效果" width="400"/>
 
 # 实现步骤
-step.1
+Step.1
 
 定义一个自定义的 AppWidgetProvider 类 MyWidget。AppWidgetProvider 是一个广播接收器，负责处理与小部件相关的操作，比如更新小部件的内容或响应用户交互。
 ```
@@ -37,7 +37,7 @@ class MyWidget : AppWidgetProvider() {
     }
 }
 ```
-step.2
+Step.2
 
 在你的Activity/Fragment中实现创建方法
 
@@ -62,7 +62,7 @@ step.2
         }
     }
 ```
-step.3
+Step.3
 
 创建一个自定组件的xml文件：widget_layout.xml
 ```
@@ -83,7 +83,7 @@ step.3
 
 </RelativeLayout>
 ```
-step.4
+Step.4
 在xml文件夹下配置widget_info.xml文件
 
 ```
@@ -98,7 +98,7 @@ step.4
     android:widgetCategory="home_screen"
     tools:targetApi="s" />
 ```
-step.5
+Step.5
 声明组件接收器
 
 ```
